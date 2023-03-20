@@ -1,0 +1,57 @@
+.HomeContainer {
+  width: 100%;
+  max-height: 60%;
+  min-height: 50%;
+
+  display: flex;
+}
+.leftSec {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  padding: 10px 20px 10px 10px;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+}
+.welcomeText {
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+  transform: matrix(12px);
+}
+
+.welcomeText span {
+  font-family: 'Dancing Script', "cursive";
+  color: rgb(70, 70, 70);
+  font-weight: lighter;
+  animation: 2s anim-lineUp ease-out ;
+}
+@keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+.rightSec {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  padding: 10px 20px 10px 10px;
+  align-items: center;
+  justify-content: center;
+  min-height: 500px;
+  filter: grayscale(100);
+}

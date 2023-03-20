@@ -1,0 +1,29 @@
+.FooterContainer {
+  width: 100%;
+  height: 100px;
+  display: flex;
+}
+.leftSec {
+  width: 100%;
+  height: 100%;
+  display: flex;
+ flex-direction: column;
+ font-family: monospace;
+gap: 20px;
+margin-left: 60px;
+margin-top: 60px;
+
+
+}
+.socials {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    gap: 10px;
+}
+.socials :hover{
+    color: grey;
+}
+.rightSec {
+}
