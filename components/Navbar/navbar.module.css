@@ -44,7 +44,9 @@ font-weight: bolder;
     gap: 20px;
     align-items: end;
 }
-
+a .linkArray{
+    text-decoration: none;
+  }
 .link{
     height: max-content;
     transition: .2s ease-in-out;
@@ -52,4 +54,7 @@ font-weight: bolder;
 .link:hover{
     font-weight: bold;
   
+}
+.linkActive{
+    font-weight: bold;  
 }

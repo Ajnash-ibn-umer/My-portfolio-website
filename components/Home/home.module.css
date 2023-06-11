@@ -53,5 +53,5 @@
   align-items: center;
   justify-content: center;
   min-height: 500px;
-  filter: grayscale(100);
+  filter: grayscale(50);
 }

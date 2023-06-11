@@ -5,6 +5,8 @@ import styles from "@/styles/Home.module.css";
 import Navbar from "@/components/Navbar";
 import HomeSec from "@/components/Home";
 import Footer from "../components/Footer";
+import { useEffect, useState } from "react";
+import Layout from "@/components/Layout";
 
 export default function Home() {
   return (
@@ -16,16 +18,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <div className="navbar">
-          <Navbar />
-        </div>
+      <Layout>
         <section>
           <HomeSec />
         </section>
-        <footer>
-          <Footer />
-        </footer>
+      </Layout>
       </main>
+ 
     </>
   );
 }
