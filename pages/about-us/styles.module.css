@@ -1,0 +1,25 @@
+
+.container{
+    padding: 0;
+    margin: 0;
+    /* background: white; */
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.section{
+    width: 100%;
+    /* background-color: rebeccapurple; */
+    height: 100%;
+    display: grid;
+    background-color: cadetblue;
+    grid-template-columns: 1fr 1fr;
+}
+
+.leftSec{
+background-color: red;
+}
+.rightSec{
+background-color: wheat;
+}

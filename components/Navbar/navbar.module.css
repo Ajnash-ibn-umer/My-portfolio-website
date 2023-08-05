@@ -17,6 +17,9 @@
     font-weight: 200;
     transition: .5s ease-in-out;
 }
+.linkArray span{
+cursor: pointer;
+}
 .logo:hover{
 font-weight: bolder;
 
@@ -26,6 +29,7 @@ font-weight: bolder;
     width: 80%;
     height: 100%;
     display: flex;
+    box-sizing: border-box;
 }
 .linkSection::after{
     content: '';
@@ -43,6 +47,8 @@ font-weight: bolder;
     flex-direction: row;
     gap: 20px;
     align-items: end;
+    box-sizing: border-box;
+
 }
 a .linkArray{
     text-decoration: none;
