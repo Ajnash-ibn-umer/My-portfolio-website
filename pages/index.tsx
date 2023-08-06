@@ -43,12 +43,28 @@ const router=useRouter()
           </div>
 
         </div>
-        <div className={styles.footerSection}>
+ <Foot />
+      </div>
+<NavBar />
+    </>
+  );
+}
+export const Foot=()=>{
+  return<>
+         <div className={styles.footerSection}>
           <div className={styles.socials} >
             <div className={styles.icons}>
-              <Image alt="photinst" width={"50"} src={insta} />
-              <Image alt="git" width={"50"} src={github} />
-              <Image alt="linkedin" width={"50"} src={linkedin} />
+           <a href="https://www.instagram.com/ajnash_ibn_umer/">
+           <Image  alt="photinst" width={"50"} src={insta} />
+            </a>   
+            <a href="https://github.com/Ajnash-ibn-umer">
+            <Image  alt="git" width={"50"} src={github} />
+
+            </a>
+            <a href="https://www.linkedin.com/in/ajnash-developer/">
+            <Image alt="linkedin" width={"50"} src={linkedin} />
+
+            </a>
             </div>
 
             <span>Copyright © 2022-2024 <br />
@@ -56,12 +72,8 @@ const router=useRouter()
 
           </div>
         </div>
-      </div>
-<NavBar />
-    </>
-  );
+  </>
 }
-
 
 export const NavBar=()=>{
   const router=useRouter()

@@ -19,6 +19,7 @@ html  .main{
 .footerSection{
   width: 100%;
   height: 15%;
+  /* margin-bottom: auto; */
   /* padding-left: 10%; */
   /* background-color: violet; */
 }
